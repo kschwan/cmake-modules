@@ -59,10 +59,10 @@ macro(pylon_config_invoke _var _cleanup_regex)
 endmacro()
 
 set(Pylon_SEARCH_PATHS
-	${PYLON_ROOT}
-	$ENV{PYLON_ROOT}
-	"/opt/pylon5"
-	"C:/Program Files/Basler/pylon 5/Development")
+  ${PYLON_ROOT}
+  $ENV{PYLON_ROOT}
+  "/opt/pylon5"
+  "C:/Program Files/Basler/pylon 5/Development")
 
 # Try to find the 'pylon-config' script which acts like 'pkg-config' and can
 # tell us about installed Pylon libraries.
